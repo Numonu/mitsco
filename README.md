@@ -59,7 +59,7 @@ Define the style of the commit messages. Use **%type%** for the commit type and 
 
 ```json
 {
-    "style": "%type% : %message%" // feat : create new component
+    "style": "%type% : %message%"
 }
 ```
 
