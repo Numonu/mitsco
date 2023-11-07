@@ -47,7 +47,7 @@ const questions = [
 
 //--------------------obtaining the data and executing the commit
 
-
+console.log(chalk.whiteBright.bgGreen("Mitsco Control Panel (v1.0.0)"));
 inquirer.prompt(questions).then((answers) => {
     //-------prepare commit info
 
