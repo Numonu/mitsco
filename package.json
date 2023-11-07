@@ -6,7 +6,8 @@
   "keywords": [
     "git",
     "manage",
-    "dev tool",
+    "tool",
+    "cli",
     "commits",
     "github",
     "conventional"
@@ -28,5 +29,4 @@
     "type": "git",
     "url": "https://github.com/numonu/mitsco"
   }
-  
 }
