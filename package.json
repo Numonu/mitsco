@@ -14,7 +14,7 @@
   ],
   "main": "index.js",
   "bin": {
-    "mitsco": "index.js"
+    "mitsco": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/numonu/mitsco"
+    "url": "git+https://github.com/numonu/mitsco.git"
   }
 }
