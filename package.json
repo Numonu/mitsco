@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "name": "mitsco",
+  "version": "1.0.0",
+  "description": "manage your conventions in commit messages",
+  "keywords": [
+    "git",
+    "manage",
+    "dev tool",
+    "commits",
+    "github",
+    "conventional"
+  ],
+  "main": "index.js",
+  "bin": {
+    "mitsco": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "numonu",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/numonu/mitsco"
+  }
+  
+}
