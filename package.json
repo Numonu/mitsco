@@ -2,7 +2,7 @@
   "type": "module",
   "name": "mitsco",
   "version": "1.0.0",
-  "description": "manage your conventions in commit messages",
+  "description": "Mitsco is a command line tool that simplifies the creation of commits following specific and custom conventions, as well as allowing you to define the style of your commit messages.",
   "keywords": [
     "git",
     "manage",
