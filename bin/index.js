@@ -13,8 +13,8 @@ import getStyle from './utils/getStyle.js';
 try {
     const {style , types} = JSON.parse(fs.readFileSync("./mitsco.config.json" , "utf-8"));
 
-    if(style) configuration.style = style;
-    if(types) configuration.types = types;
+    if(style && typeof style === "string") configuration.style = style;
+    if(types && Array.isArray(types)) configuration.types = types;
 
 } catch {
     /*no custom configuration found*/
